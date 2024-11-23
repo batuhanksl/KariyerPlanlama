@@ -12,7 +12,6 @@ df_search_bar = df_maas.iloc[:,0]
 
 st.set_page_config(project_Name,page_icon="🎓", layout="wide")
 
-st.sidebar.subheader("Hoşgeldiniz",divider="gray")
 
 with st.columns(3)[1]:
     st.title(project_Name,anchor=None)
