@@ -4,9 +4,6 @@ import pandas as pd
 df_mezun = pd.read_excel("streamlibs_data_tr.xlsx", sheet_name="df_mezun")
 df_yetenekler = pd.read_excel("streamlibs_data_tr.xlsx", sheet_name="df_yetenekler")
 
-
-st.set_page_config("Sana en uygun mesleği bul!",page_icon="🎓", layout="wide")
-
 uploaded_file = st.file_uploader("CV'ni Yükle")
 
 if uploaded_file != None:
